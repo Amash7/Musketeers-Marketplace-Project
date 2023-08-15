@@ -1,0 +1,65 @@
+.navbar {
+  background: linear-gradient(
+    to right,
+    rgba(135, 206, 235, 0.3),
+    rgba(255, 255, 255, 0.3)
+  );
+  padding: 10px 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 1000;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 0 15px;
+}
+
+/* Navbar */
+.navbar-brand h1 {
+  margin: 0;
+  color: white;
+  font-size: 24px;
+}
+
+/* User profile and logout */
+.navbar-nav {
+  display: flex;
+  align-items: center;
+}
+
+img {
+  width: 45px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+span {
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.logout-button {
+  background-color: transparent;
+  border: none;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+  transition: color 0.3s;
+  margin-left: 30px;
+}
+
+.logout-button:hover {
+  text-decoration: solid;
+  color: skyblue;
+}

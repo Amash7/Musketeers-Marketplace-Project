@@ -1,0 +1,31 @@
+body {
+  background-image: url("./images/back.jpg");
+  /* background: linear-gradient(to top, rgb(255, 255, 255), gray); */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.box {
+  border: 2px solid #fbff23;
+  background-color: rgba(255, 255, 255, 0.7);
+  border-radius: 15px;
+}
+
+.g-btn {
+  width: 100% !important;
+  height: 50px !important;
+  line-height: 50px !important;
+  font-size: 18px !important;
+}
+.g-btn > div,
+.g-btn > div > svg {
+  width: 50px !important;
+  height: 48px !important;
+}
